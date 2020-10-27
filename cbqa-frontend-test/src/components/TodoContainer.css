@@ -1,0 +1,37 @@
+.TodoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: rgba(0,0,0,.87);;
+    padding: 5%;
+}
+
+.userSelectorElement{
+    background-color:rgb(35,38,46);
+    width: 200px;
+    color: whitesmoke;
+    min-width: 100px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 15px;
+}
+
+.userSelectorElement:hover{
+    background-color:#000;
+    transition: 0.5;
+}
+
+.currentUserLabel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.currentUserLabel h2{
+    width: 50%;
+    padding: 10px;
+    color: whitesmoke;
+}
